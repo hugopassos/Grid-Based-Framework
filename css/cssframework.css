@@ -1,5 +1,9 @@
 .container{
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
 }
-
-.
+.full-container{
+  width: 100%;
+  display: grid;
+}
