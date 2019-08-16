@@ -6,6 +6,11 @@
 body{
   margin: 0;
   padding: 0;
+  background: blue;
+}
+img{
+  width: 100%;
+  display: block;
 }
 
 #remove-left-border{
@@ -43,19 +48,19 @@ body{
   padding: 0;
 }
 .full-container{
-  width: 100%;
+  max-width: 2500px;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
 }
 .container-padding{
-  padding: 15px 0;
+  padding: 5px 0;
 }
 .line{
   display: grid;
-  grid-template-columns: repeat(12,1fr);
+  grid-template-columns: repeat(12,auto);
 }
 .line-gap{
-  grid-gap: 15px;
+  grid-gap: 5px;
 }
 .span-1{
   grid-column: span 1;
