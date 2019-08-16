@@ -1,3 +1,22 @@
-.fucking-img{
+.border-img{
   border: 2px solid white;
+}
+
+.nav-top{
+  width: 100%;
+  height: 40px;
+  background-color: #26edbb;
+}
+.nav-bottom{
+  width: 100%;
+  height: 80px;
+  background: #555;
+}
+
+.nav-full-container{
+  flex-direction: column;
+}
+
+.logo{
+  width: 100px;
 }
