@@ -2,7 +2,7 @@
 
 This project consists in building a grid based framework.
 
-Used: CSS
+Used: CSS HTML
 
 Authors: Hugo Passos https://github.com/hugopassos and Hector Andoni Uzquiano https://github.com/Juakata
 
