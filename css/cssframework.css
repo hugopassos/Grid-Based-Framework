@@ -7,6 +7,36 @@ body{
   margin: 0;
   padding: 0;
 }
+
+#remove-left-border{
+  border-left: none;
+}
+
+.nav-full-container{
+  margin-top: 20px;
+  display: flex;
+}
+
+.nav-container{
+  max-width: 1250px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.nav-item{
+  flex: 1 1 auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.nav-item-style-2{
+  flex: 1 1 auto;
+  display: inline-block;
+  text-align: center;
+  border-left: solid 1px #000;
+}
+
 .container{
   max-width: 1250px;
   margin: 0 auto;
@@ -64,19 +94,142 @@ body{
   grid-column: span 12;
 }
 
+/******SMALL SIZED SPAN*****/
+
+.span-sm-1{
+  grid-column: span 1;
+}
+.span-sm-2{
+  grid-column: span 2;
+}
+.span-sm-3{
+  grid-column: span 3;
+}
+.span-sm-4{
+  grid-column: span 4;
+}
+.span-sm-5{
+  grid-column: span 5;
+}
+.span-sm-6{
+  grid-column: span 6;
+}
+.span-sm-7{
+  grid-column: span 7;
+}
+.span-sm-8{
+  grid-column: span 8;
+}
+.span-sm-9{
+  grid-column: span 9;
+}
+.span-sm-10{
+  grid-column: span 10;
+}
+.span-sm-11{
+  grid-column: span 11;
+}
+.span-sm-12{
+  grid-column: span 12;
+}
+
+/******MEDIUM SIZED SPAN*****/
+
+.span-md-1{
+  grid-column: span 1;
+}
+.span-md-2{
+  grid-column: span 2;
+}
+.span-md-3{
+  grid-column: span 3;
+}
+.span-md-4{
+  grid-column: span 4;
+}
+.span-md-5{
+  grid-column: span 5;
+}
+.span-md-6{
+  grid-column: span 6;
+}
+.span-md-7{
+  grid-column: span 7;
+}
+.span-md-8{
+  grid-column: span 8;
+}
+.span-md-9{
+  grid-column: span 9;
+}
+.span-md-10{
+  grid-column: span 10;
+}
+.span-md-11{
+  grid-column: span 11;
+}
+.span-md-12{
+  grid-column: span 12;
+}
+
+/******LARGE SIZED SPAN*****/
+
+.span-lg-1{
+  grid-column: span 1;
+}
+.span-lg-2{
+  grid-column: span 2;
+}
+.span-lg-3{
+  grid-column: span 3;
+}
+.span-lg-4{
+  grid-column: span 4;
+}
+.span-lg-5{
+  grid-column: span 5;
+}
+.span-lg-6{
+  grid-column: span 6;
+}
+.span-lg-7{
+  grid-column: span 7;
+}
+.span-lg-8{
+  grid-column: span 8;
+}
+.span-lg-9{
+  grid-column: span 9;
+}
+.span-lg-10{
+  grid-column: span 10;
+}
+.span-lg-11{
+  grid-column: span 11;
+}
+.span-lg-12{
+  grid-column: span 12;
+}
+
 .square{
   width: 100%;
   height: 200px;
   border: solid 5px blue;
 }
 
-@media (max-width: 950px) {
-  .span-6{
+@media (max-width: 1000px) {
+  div[class*="span-lg"]{
     grid-column: span 12;
   }
 }
-@media (max-width: 600px) {
-  .span-4{
+
+@media (max-width: 750px) {
+  div[class*="span-md"]{
+    grid-column: span 12;
+  }
+}
+@media (max-width: 500px) {
+  div[class*="span-sm"]{
     grid-column: span 12;
   }
 }
