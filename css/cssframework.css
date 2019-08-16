@@ -222,18 +222,18 @@ img{
   border: solid 5px blue;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   div[class*="span-lg"]{
     grid-column: span 12;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 900px) {
   div[class*="span-md"]{
     grid-column: span 12;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   div[class*="span-sm"]{
     grid-column: span 12;
   }
