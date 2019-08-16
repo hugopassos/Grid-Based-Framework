@@ -69,3 +69,14 @@ body{
   height: 200px;
   border: solid 5px blue;
 }
+
+@media (max-width: 950px) {
+  .span-6{
+    grid-column: span 12;
+  }
+}
+@media (max-width: 600px) {
+  .span-4{
+    grid-column: span 12;
+  }
+}
