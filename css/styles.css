@@ -6,6 +6,7 @@
   width: 100%;
   height: 40px;
   background-color: #26edbb;
+  text-align: center;
 }
 .nav-bottom{
   width: 100%;
@@ -18,5 +19,20 @@
 }
 
 .logo{
-  width: 100px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+.nav-p{
+  color: white;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: -5px;
+}
+
+.nav-p p{
+  display: inline;
+  flex: 1;
 }
