@@ -19,21 +19,23 @@ img{
 .nav-style-2{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .nav-style-left{
-  flex: 1;
+  flex: 1 1 auto;
   text-align: left;
+  align-self: center;
 }
 
 .nav-style-right{
-  flex: 1;
+  flex: 1 1 auto;
   text-align: right;
-  
+  align-self: center;
 }
 
 .nav-style-center{
-  flex: 1;
+  flex: 1 1 auto;
   text-align: center;
 }
 
@@ -61,18 +63,6 @@ img{
   border-left: solid 1px #000;
 }
 
-.button{
-  border: solid 1px #26edbb;
-  height: 40px;
-  width: 100px;
-  background: none;
-}
-
-.button:hover{
-  background: #26edbb;
-  transition: .4s ease-in-out;
-}
-
 .container{
   max-width: 1250px;
   margin: 0 auto;
@@ -86,6 +76,18 @@ img{
 .container-padding{
   padding: 5px 0;
 }
+.horizontal-ul{
+  display: inline-flex;
+  margin-right: 5%;
+  width: 50%;
+  justify-content: space-between;
+}
+.horizontal-ul li {
+  display: inline;
+  color: white;
+  flex: 1 1 auto;
+}
+
 .line{
   display: grid;
   grid-template-columns: repeat(12,auto);
@@ -247,11 +249,27 @@ img{
   grid-column: span 12;
 }
 
+.menu-after-collapse{
+  display: none;
+}
 
-
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
   div[class*="span-lg"]{
     grid-column: span 12;
+  }
+  .nav-style-right{
+    display: none;
+  }
+  .menu-after-collapse{
+    list-style: none;
+    color: white;
+    font-size: 24px;
+    display: inline-block;
+    margin-right: 5%;
+  }
+  .menu-after-collapse li i:active{
+    transform-origin: center;
+    transform: scale(1.2);
   }
 }
 

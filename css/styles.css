@@ -20,7 +20,6 @@
 
 .logo{
   width: 200px;
-  margin-top: 20px;
   margin-left: 5%;
 }
 
@@ -29,10 +28,25 @@
   display: flex;
   width: 50%;
   margin: 0 auto;
-  margin-top: -5px;
+  height: 100%;
 }
 
 .nav-p p{
   display: inline;
   flex: 1;
+  align-self: center;
+}
+
+.button{
+  border: solid 1px #26edbb;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  background: none;
+  display: inline-block;
+}
+
+.button:hover{
+  background: #26edbb;
+  transition: .4s ease-in-out;
 }
