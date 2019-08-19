@@ -1,3 +1,9 @@
+body{
+  background: url('https://www.gradiente.com.br/assets/image/bg-about.png') no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .border-img{
   border: 2px solid white;
 }
@@ -16,6 +22,9 @@
 
 .nav-full-container{
   flex-direction: column;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .logo{
@@ -49,4 +58,36 @@
 .button:hover{
   background: #26edbb;
   transition: .4s ease-in-out;
+}
+
+.full-container{
+  margin-top: 120px;
+}
+
+.plain-text{
+  text-align: center;
+  padding: 100px 0;
+}
+
+.middle-text{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.plain-text-img{
+  width: 200px;
+  display: inline-block;
+}
+
+@media (max-width: 1100px){
+  .nav-p{
+    width: 70%;
+  }
+}
+
+@media (max-width: 700px){
+  #nav-p-2{
+    display: none;
+  }
 }
