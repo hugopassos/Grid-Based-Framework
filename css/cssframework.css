@@ -93,7 +93,7 @@ img{
   grid-template-columns: repeat(12,auto);
 }
 .line-gap{
-  grid-gap: 5px;
+  grid-gap: 20px;
 }
 .span-1{
   grid-column: span 1;
