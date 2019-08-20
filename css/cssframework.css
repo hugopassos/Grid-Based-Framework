@@ -32,6 +32,21 @@ img{
   margin: auto;
 }
 
+.padding-top{
+  padding-top: .5rem;
+}
+.padding-bottom{
+  padding-bottom: .5rem;
+}
+.padding-right{
+  padding-right: .5rem;
+}
+.padding-left{
+  padding-left: .5rem;
+}
+.padding-auto{
+  padding: auto;
+}
 
 .nav-style-2{
   display: flex;
@@ -311,5 +326,16 @@ img{
   .margin-sm-left{
     margin-left: .25rem;
   }
-
+  .padding-sm-top{
+    padding-top: .25rem;
+  }
+  .padding-sm-bottom{
+    padding-bottom: .25rem;
+  }
+  .padding-sm-right{
+    padding-right: .25rem;
+  }
+  .padding-sm-left{
+    padding-left: .25rem;
+  }
 }
