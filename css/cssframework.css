@@ -47,7 +47,31 @@ img{
 .padding-auto{
   padding: auto;
 }
-
+/* Positioning */
+.float-right{
+  float: right;
+}
+.float-left{
+  float: left;
+}
+.clear-both{
+  clear: both;
+}
+.clear-right{
+  clear: right;
+}
+.clear-left{
+  clear: left;
+}
+.position-absolute{
+  position: absolute;
+}
+.position-relative{
+  position: relative;
+}
+.position-fixed{
+  position: fixed;
+}
 .nav-style-2{
   display: flex;
   flex-direction: row;
