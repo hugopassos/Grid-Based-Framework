@@ -170,6 +170,33 @@ img{
 .right{
   align-self: right;
 }
+.size-xs{
+  font-size: 10px;
+}
+.size-sm{
+  font-size: 15px;
+}
+.size-md{
+  font-size: 20px;
+}
+.size-lg{
+  font-size: 25px;
+}
+.size-xl{
+  font-size: 30px;
+}
+.weight-normal{
+  font-weight: normal;
+}
+.weight-medium{
+  font-weight: 600;
+}
+.weight-bold{
+  font-weight: bold;
+}
+.weight-super-bold{
+  font-weight: 900;
+}
 .nav-style-2{
   display: flex;
   flex-direction: row;
