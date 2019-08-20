@@ -197,6 +197,31 @@ img{
 .weight-super-bold{
   font-weight: 900;
 }
+
+.border{
+  border: solid black .1rem;
+}
+.border-top{
+  border-top: solid black .1rem;
+}
+.border-left{
+  border-left: solid black .1rem;
+}
+.border-right{
+  border-right: solid black .1rem;
+}
+.border-bottom{
+  border-bottom: solid black .1rem;
+}
+
+.rounded-border{
+  border-radius: 5rem;
+}
+
+.circle-border{
+  border-radius: 50%;
+}
+
 .nav-style-2{
   display: flex;
   flex-direction: row;
