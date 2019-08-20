@@ -32,6 +32,7 @@ img{
   margin: auto;
 }
 
+
 .nav-style-2{
   display: flex;
   flex-direction: row;
@@ -298,4 +299,17 @@ img{
   div[class*="span-sm"]{
     grid-column: span 12;
   }
+  .margin-sm-top{
+    margin-top: .25rem;
+  }
+  .margin-sm-bottom{
+    margin-bottom: .25rem;
+  }
+  .margin-sm-right{
+    margin-right: .25rem;
+  }
+  .margin-sm-left{
+    margin-left: .25rem;
+  }
+
 }
