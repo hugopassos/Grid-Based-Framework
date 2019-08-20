@@ -15,6 +15,69 @@ img{
 #remove-left-border{
   border-left: none;
 }
+
+.background-white{
+  background: #fff;
+}
+.background-black{
+  background: #000;
+}
+.background-red{
+  background: #ff0000;
+}
+.background-green{
+  background: #00ff0d;
+}
+.background-blue{
+  background: #000dbf;
+}
+.background-yellow{
+  background: #fffb00;
+}
+.background-grey{
+  background: #636363;
+}
+.background-orange{
+  background: #ff5500;
+}
+.background-purple{
+  background: #8800ff;
+}
+.background-pink{
+  background: #ff00bb;
+}
+
+.font-white{
+  color: #fff;
+}
+.font-black{
+  color: #000;
+}
+.font-red{
+  color: #ff0000;
+}
+.font-green{
+  color: #00ff0d;
+}
+.font-blue{
+  color: #000dbf;
+}
+.font-yellow{
+  color: #fffb00;
+}
+.font-grey{
+  color: #636363;
+}
+.font-orange{
+  color: #ff5500;
+}
+.font-purple{
+  color: #8800ff;
+}
+.font-pink{
+  color: #ff00bb;
+}
+
 /* box utillties */
 .margin-top{
   margin-top: .5rem;
