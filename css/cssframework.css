@@ -79,7 +79,34 @@ img{
 .display.none{
   display: none;
 }
-
+/*Flex properties*/
+.flex-top{
+  align-self: flex-start;
+}
+.flex-middle{
+  align-self: center;
+}
+.flex-bottom{
+  align-self: flex-end;
+}
+.vertical-top{
+  vertical-align: top;
+}
+.vertical-middle{
+  vertical-align: middle;
+}
+.vertical-bottom{
+  vertical-align: bottom;
+}
+.left{
+  text-align: left;
+}
+.center{
+  text-align: center;
+}
+.right{
+  align-self: right;
+}
 .nav-style-2{
   display: flex;
   flex-direction: row;
