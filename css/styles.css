@@ -65,11 +65,11 @@ footer{
 .plain-text{
   text-align: center;
   padding: 100px 0;
+  color: white;
   background: url('https://www.gradiente.com.br/assets/image/bg-about.png') no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-size: 100%;
-  color: white;
+  background-size: cover;
 }
 
 .middle-text{
@@ -81,6 +81,7 @@ footer{
 .plain-text-img{
   width: 200px;
   display: inline-block;
+
 }
 .footer-container{
   background: #303030;
